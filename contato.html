@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-bt" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="shortcut icon" href="../img/este.png">
+    <title>Chuvente app</title>
+  </head>
+  <body>
+    <section class="row cor">
+    	<header>
+        <img src="../img/este.png" alt="Logotipo chuvente" class="logo">
+  			<nav class="col-12 menu">
+  				<ul>
+  					<li><a href="../index.html">Chuvente</a></li>
+            <li><a href="../html/aplicativo.html">Aplicativo</a></li>
+  					<li><a href="../html/alagamentos.html">alagamentos</a></li>
+  					<li><a href="../html/grupo.html">grupo</a></li>
+  					<li><a href="../html/contato.html">contato</a></li>
+  				</ul>
+  			</nav>
+  		</header>
+			<article class="contato">
+				<h1>Contato</h1>
+	    	<form method="post" action="maiton:edsonap.silva@hotmail.com">
+	    		<fieldset> <legend>Pessoa</legend>
+      			<label for="Nome">Nome:</label>
+						<input type="text" name="tNome" id="cNome" size="40" maxlength="30" placeholder="Nome Completo" />
+      			<label for="Mail">E-mail:</label>
+						<input type="E-mail" name="tMail" id="cMail" size="40" maxlength="30"/>
+						<label for="Date">Data de Nascimento:</label>
+ 						<input type="date" name="tNasc" id="cNasc" />
+      		</fieldset>
+					<fieldset><legend>Endereço</legend>
+						<label for="cLogradouro">Logradouro:</label>
+        		<input type="text" name="tRua" id="cRua" size="40" maxlength="30" placeholder="Rua, Avenida..."/>
+						<label for="Numero">Número:</label>
+						<input type="number" name="tNum" id="cNum" min="0" max="9999" size="10"/>
+						<label for="Cidade">Cidade:</label>
+ 						<input type="text" name="tCid" id="cCid" size="20" maxlength="40" size="40"/>
+						<label for="Estado ">Estado:</label>
+						<input type="text" name="tEst" id="cEst" size="20" maxlength="40" size="40"/>
+      		</fieldset>
+					<fieldset><legend>Mensagem</legend>
+        		<textarea name="tmsg" id="cMsg" cols="45" rows="5" placeholder="digite sua mensagem"></textarea>
+						<button>Enviar</button>
+					</fieldset>
+
+    		</form>
+			</article>
+			<footer class="col-12">
+				<p class="col-4">Nem um direito reservado @CHUVENTE app.</p>
+				<a href="#"><img src="../img/facebook.png" alt="facebook"></a>
+				<a href="#"><img src="../img/instagram.png" alt="instagram"></a>
+				<a href="#"><img src="../img/twitter.png" alt="twitter"></a>
+			</footer>
+		</section>
+  </body>
+</html>

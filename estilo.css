@@ -1,0 +1,203 @@
+/***************** CHAMADA DO CSS GRIDE ***********************/
+.cor{
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/******************** ESTILOS PADRÃO ****************************/
+a{
+  color:white;
+}
+a:hover{
+  color: orange;
+}
+header {
+  background: #584b4f;
+  height: 90px;
+  width: 100%;
+  position: absolute;
+}
+header {
+  position: relative;
+}
+footer {
+	text-align: center;
+  display: block;
+  position: relative;
+	background: #584b4f;
+}
+footer img{
+  margin: 1% 2%;
+  float:left;
+  width: 2.6%;
+  height:auto;
+}
+footer p{
+  color:white;
+  margin:1.2% 20%;
+}
+/**************** PADRÃO DO MENU********************/
+.logo{
+  width: 4%;
+  height:auto;
+  margin: 14px 0 0 18%;
+}
+.menu {
+  position: absolute;
+  right: 0;
+  top: -.5em;
+}
+.menu ul {
+  margin: 2% 0 0 30% ;
+}
+.menu li {
+  padding: 0% 1%;
+  margin:0 3%;
+  display: inline-block;
+}
+.menu a {
+  font-size: 20px;
+  text-decoration: none;
+}
+/************************* PAGINA DA HOME **************************/
+.video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	background-size: cover;
+}
+.destaque {
+	padding: 10%;
+	height:600px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.texto{
+  padding: 0;
+  margin: -2px;
+  font-weight: bold;
+  font-size: 200%;
+}
+.lista button {
+  width: 70%;
+  height: auto;
+  color: #ffffff;
+  background: #fe9b00;
+  border: 0;
+  padding:3.5%;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.lista{
+	margin: 0 0 0 100px;
+	background-color: rgba(0, 0, 0, 0.4);
+	font-size: 20px;
+	padding: 10px 0px 10px 0px ;
+	text-align: center;
+	list-style: none;
+	border-radius: 20px;
+	border: 2px solid #584b4f;
+}
+.lista li+li{
+    padding: 10px 0;
+    border-left: none;
+    border-top: 2px solid #4e4b4d;
+}
+/***********************PAGINA APLICATIVO*******************/
+
+/**********************PAGINA ALAGAMENTOS  ***********************/
+iframe{
+  position: relative;
+  left: 30%;
+  top:70px;
+  width:570px;
+  height:325px;
+}
+caption{
+  margin: 0% 0% 3% 0%;
+  font-weight: bold;
+  font-size: 200%;
+}
+table {
+  margin: 8%;
+  height: auto;
+}
+th{
+  margin:100px;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+  background-color:white;
+  color: black;
+}
+/****************** PAGINA GRUPO **********************/
+
+
+/******************* PAGINA CONTATO ***********************/
+.contato input,
+.contato button {
+  display: block;
+}
+form {
+  margin: 2% auto;
+  width: 50%;
+}
+.contato input,
+textarea {
+  width: 100%;
+  margin-bottom: .8em;
+  padding: 4px 8px;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: 2px solid #ccc;
+  
+}
+.contato button {
+  margin: 0 auto;
+  background: #fe9b00;
+  border: 0;
+  color: #fff;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+.contato h1{
+  text-align: center;
+}
+.input teste{
+	color: black;
+}
